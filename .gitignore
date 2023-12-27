@@ -1,5 +1,5 @@
 # Local .terraform directories
-**/.terraform/*
+.terraform/*
 
 # .tfstate files
 *.tfstate
@@ -32,6 +32,6 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+**/.vscode/*
 **/.infracost/*
-.vscode/
-*.plan
+ssm-parameter-store.tf
